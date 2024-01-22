@@ -1,0 +1,22 @@
+main {
+    text-align: center;
+  }
+  
+  h1 {
+    font-size: 28px;
+    margin: 20px;
+  }
+  
+  nav {
+    margin: 20px;
+  }
+  
+  a {
+    text-decoration: none;
+    margin: 0 10px;
+    font-weight: bold;
+  }
+  
+  .router-link-active {
+    border-bottom: 2px solid #007bff;
+  }

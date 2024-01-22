@@ -1,0 +1,18 @@
+<form (submit)="onaddcandy(addCandy)" #addCandy="ngForm">
+    <input type ="text"
+    ngModel name="enteredID"
+    placeholder ="Candy ID"
+    required    
+    minlength="1"
+    pattern ="^[a-zA-Z0-9\s_-]+$"
+    #enteredID ="ngModel"/>
+    <input type ="text"
+    ngModel name="enteredName"
+    placeholder ="Candy Name"
+    required
+    minlength="1"
+    pattern ="^[a-zA-Z0-9\s_-]+$"
+    #enteredName ="ngModel"/>
+
+<button type = "submit" >Add candy</button>
+</form>
